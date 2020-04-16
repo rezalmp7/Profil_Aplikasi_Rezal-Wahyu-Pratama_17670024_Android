@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#424874"
+        >
+        <TextView
+            android:layout_margin="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="#fff"
+            tools:ignore="RtlHardcoded,SpUsage" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#f4eeff">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:padding="10dp"
+                android:src="@drawable/photo_profil" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/MyName"
+                style="@style/ProfileName"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/From"
+                style="@style/ProfileFrom"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/About"
+                style="@style/ProfileAbout"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/TitleDetail"
+                style="@style/Title"
+                />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <TableRow>
+                    <TextView
+                        android:text="@string/TitleTable1"
+                        style="@style/TableTitle"
+                        />
+                    <TextView
+                        android:text="@string/TextTable1"
+                        style="@style/TableText"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="@string/TitleTable2"
+                        style="@style/TableTitle"
+                        />
+                    <TextView
+                        android:text="@string/TextTable2"
+                        style="@style/TableText"
+                        />
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="@string/TitleTable3"
+                        style="@style/TableTitle"
+                        />
+                    <TextView
+                        android:text="@string/TextTable31"
+                        style="@style/TableText" />
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/TitleMade"
+                style="@style/Title"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="150dp"
+                    android:padding="10dp"
+                    android:src="@drawable/logo_upgris"/>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+                    <TableRow>
+                        <TextView
+                            android:text="@string/TitleTableMade1"
+                            style="@style/TableTitle"/>
+                        <TextView
+                            android:text="@string/TextTableMade1"
+                            style="@style/TableTitle"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:text="@string/TitleTableMade2"
+                            style="@style/TableTitle"/>
+                        <TextView
+                            android:text="@string/TextTableMade2"
+                            style="@style/TableTitle"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ButtonText"
+                style="@style/ButtonText"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

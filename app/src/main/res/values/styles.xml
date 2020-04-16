@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ProfileName">
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="ProfileFrom">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#a6b1e1</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    
+    <style name="ProfileAbout">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+    <style name="Title">
+        <item name="android:textColor">#a6b1e1</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="TableTitle">
+        <item name="android:textColor">#a6b1e1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="TableText">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="ButtonText">
+        <item name="android:textAlignment">center</item>
+        <item name="android:colorBackground">#424874</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+</resources>
